@@ -1,0 +1,61 @@
+name: saidizi
+description: "An AI support agent."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_markdown: ^0.7.1
+  google_generative_ai: ^0.4.3
+  url_launcher: ^6.3.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter_icons:
+  image_path:  "assets/app_icon/saidizi_icon.png"
+  color_dark: "#18003B"
+  color: "#18003B"
+  android: "launcher_icon"
+  ios: true
+flutter_native_splash:
+  image:  assets/splash_on_light.png
+  color: "#ffffff"
+  image_dark:  assets/splash_on_dark.png
+  color_dark: "#18003B"
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/icon_on_dark.png
+    - assets/icon_on_light.png
+    - assets/on_dark.png
+    - assets/on_light.png
+    - assets/app_icon/saidizi_icon.png
+    - assets/app_icon/
+  
+  fonts:
+    - family: NeueMachina
+      fonts:
+        - asset: fonts/NeueMachina-PlainLight.otf
+        - asset: fonts/NeueMachina-InktrapRegular.otf
+        - asset: fonts/NeueMachina-PlainUltrabold.otf
+        - asset: fonts/NeueMachina-InktrapLight.otf    
+        - asset: fonts/NeueMachina-InktrapUltrabold.otf
+        - asset: fonts/NeueMachina-PlainLightItalic.otf
+        - asset: fonts/NeueMachina-PlainRegularItalic.otf
+        - asset: fonts/NeueMachina-PlainUltraboldItalic.otf
+        - asset: fonts/NeueMachina-InktrapRegularItalic.otf
+        - asset: fonts/NeueMachina-InktrapUltraboldItalic.otf
+        - asset: fonts/NeueMachina-InktrapLightItalic.otf
